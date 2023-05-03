@@ -11,7 +11,7 @@ const Coin = ({ name, image, symbol, price, marketCap, priceChange }) => {
             <h4>{symbol.toUpperCase()}</h4>
             <h5>$ {price.toLocaleString()}</h5>
             <p className={priceChange > 0 ? styles.mosbat : styles.manfi}>% {priceChange}</p>
-            <h6>$ {marketCap.toLocaleString()}</h6>
+            <h6>{marketCap.toLocaleString()}</h6>
         </div>
     );
 };

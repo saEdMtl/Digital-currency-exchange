@@ -114,11 +114,11 @@
 @media screen and (max-width:767px) {
 
     .container h3{
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
         text-align: left;
         width: 100%;
-        margin-left: 15px;
+        margin-left: 13px;
     }
     
     .container h4{
