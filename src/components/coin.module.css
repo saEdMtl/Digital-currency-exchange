@@ -1,0 +1,158 @@
+.container{
+    display: flex;
+    margin: 20px 0  ;
+    text-align: left;
+    border-bottom:1px solid silver ;
+}
+
+.container img{
+    width: 40px;
+    height: 40px;
+    margin:  10px 0 0 20px;
+}
+
+.container h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.container h4{
+    font-weight: 200;
+    font-size: 14px;
+    width: 100%;
+}
+
+.container h5{
+    font-weight: 200;
+    font-size: 13px;
+    width: 100%;
+}
+
+.container h6{
+    font-weight: 200;
+    width: 100%;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+.mosbat{
+    color: rgb(255, 38, 38);
+    font-weight: 200;
+    width: 100%;
+    font-size: 14px;
+}
+
+.manfi{
+    color: rgb(0, 204, 0);
+    font-weight: 200;
+    width: 100%;
+    font-size: 14px;
+}
+
+@media screen and (max-width:1200px){
+
+    .container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .container img{
+        width: 25px;
+        height: 25px;
+        margin:  5px 0 0 0px;
+    }
+
+    .container h3{
+        font-size: 14px;
+        font-weight: bold;
+        text-align: left;
+        width: 100%;
+        margin-left: 15px;
+    }
+    
+    .container h4{
+        font-weight: 200;
+        font-size: 11px;
+        width: 100%;
+    }
+    
+    .container h5{
+        font-weight: 200;
+        font-size: 10px;
+        width: 100%;
+    }
+    
+    .container h6{
+        font-weight: 200;
+        width: 100%;
+        font-size: 9px;
+        margin-bottom: 30px;
+    }
+
+    .mosbat{
+        color: rgb(255, 38, 38);
+        font-weight: 200;
+        width: 100%;
+        font-size: 12px;
+    }
+    
+    .manfi{
+        color: rgb(0, 204, 0);
+        font-weight: 200;
+        width: 100%;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .container h3{
+        font-size: 12px;
+        font-weight: bold;
+        text-align: left;
+        width: 100%;
+        margin-left: 15px;
+    }
+    
+    .container h4{
+        font-weight: 200;
+        font-size: 10px;
+        width: 100%;
+    }
+    
+    .container h5{
+        font-weight: 200;
+        font-size: 9px;
+        width: 100%;
+    }
+    
+    .container h6{
+        font-weight: 200;
+        width: 100%;
+        font-size: 8px;
+        margin-bottom: 30px;
+    }
+
+    .mosbat{
+        color: rgb(255, 38, 38);
+        font-weight: 200;
+        width: 100%;
+        font-size: 10px;
+    }
+    
+    .manfi{
+        color: rgb(0, 204, 0);
+        font-weight: 200;
+        width: 100%;
+        font-size: 10px;
+    }
+
+}
+
